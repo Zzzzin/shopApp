@@ -1,0 +1,14 @@
+@import "./src/app";
+
+.index {
+  .qqq {
+    @include background(#000);
+    color: $title-color;
+  }
+
+  .top {
+    position: fixed;
+    right: 10px;
+    bottom: 140px;
+  }
+}
